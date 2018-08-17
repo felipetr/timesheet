@@ -1,0 +1,41 @@
+.perc100
+{
+    width: 100% !important;
+}
+
+.floatleft
+{
+    float: left;
+}
+
+.floatright
+{
+    float: right;
+}
+
+
+
+.mce-panel, .mce-btn
+{
+    background: #DDDDDD !important;
+    border: none !important;
+}
+.mce-btn:hover
+{
+    background: #ccc  !important;
+}
+.mce-tinymce
+ {
+    border: #DDDDDD 1px solid !important;;
+     border-top: #1B798D 5px solid !important;
+ }
+
+.mce-primary
+{
+    background: #1B798D !important;
+    color: #fff;
+}
+.mce-primary:hover
+{
+    background: #176474 !important;
+}

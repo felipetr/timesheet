@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+html, body
+{
+    height: 100%;
+}
+.headerc
+{
+    min-height: calc(100% - 34px);
+}
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    background: #eff4f6;
+    text-align: center;
+    color: #777;
+}
+
+header
+{
+    background: #333;
+    padding: 12px;
+    color: #ffc000;
+    line-height: 30px;
+    font-size: 18px;
+}
+header b
+{
+    color: #fff;
+}
+header img
+{
+    height: 30px;
+}
+header a
+{
+    margin-left: 3px;
+    font-size: 20px;
+    display: inline-block;
+    color: #ffc000 !important;
+    text-decoration: none !important;
+}
+
+header a:hover
+{
+    color: #fff !important;
+}
+header .perfil
+{
+    float: right;
+}
+footer
+{
+    width: 100%;
+    padding: 6px;
+    color: #a2adb2;
+    font-size: 15px;
+    line-height: 20px;
+}
+footer a
+{
+    color: #a2adb2 !important;
+    text-decoration: none !important;
+}
+
+footer a:hover
+{
+    color: #798e98 !important;
+}
+
+.conteudo
+{
+    margin: 15px;
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #dde5e8;
+}
+
+
+h3, h2
+{
+
+    margin: 0 0 15px 0 !important;
+    padding: 0 !important;
+    color: #555;
+    font-weight: 300;
+
+}
+
+
+.clientebox
+{
+    cursor: pointer;
+    overflow: visible;
+
+
+}
+.clientebox:hover img
+{
+    opacity: .7 !important;
+}
+.clientebox img
+{
+    opacity: 1;
+    border-radius: 500px;
+    border: 1px solid #eee;
+    width: 100%;
+    margin-bottom: 15px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.clientebox div
+{
+    line-height: 18px;
+    padding: 6px;
+    height: 36px;
+    color: #333;
+    font-weight: bold;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+}
+
+
+#relogio
+{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.displaynone
+{
+    display: none !important;
+}
+
+.clientesb .col-md-2
+{
+    float: none;
+    display: inline-block;
+    margin: 0 -3px 15px;
+}
+
+.clientesb
+{
+    margin-bottom: -15px;
+}
+.clientebox
+{
+    position: relative;
+    padding-bottom: 51px;
+}
+
+.clientebox div

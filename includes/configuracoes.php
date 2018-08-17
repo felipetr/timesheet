@@ -1,0 +1,1 @@
+<?php$dirurl = '/timesheet';$logindb  = 'gerens';$senhadb  = 'lsh7r5m8y9yu';$bancodb =  'gerens_timesheet';$servidor = $_SERVER['HTTP_HOST'];if ($servidor == 'localhost'){	$dirurl = '/sandbox/projetos/gerenscount/site';	$logindb  = 'root';	$senhadb  = '';	$bancodb =  'gerens_contador';}$baseurl = 'http://'.$servidor.$dirurl;

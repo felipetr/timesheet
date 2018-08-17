@@ -1,0 +1,1 @@
+<?phpsession_start();session_destroy();session_unset();include 'configuracoes.php';?><a onclick="addproduto('null', baseurl)">Entre</a> ou <a href="<?php echo $baseurl; ?>/cadastrar">Cadastre-se</a> para solicitar orçamento
